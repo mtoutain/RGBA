@@ -113,7 +113,7 @@ public class RGBAModel extends Observable {
     private void updateObservers() {
         this.setChanged();              //sets the dirt flag on the data
         this.notifyObservers();         //broadcasts to all listeners
-        //these two methods come from the observable class
+        //these two methods come from the observable classv
     }
 
     @Override

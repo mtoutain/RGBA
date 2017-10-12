@@ -124,6 +124,26 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
                 mModel.asBlue();
                 return true;
 
+            case R.id.action_black:
+                mModel.asBlack();
+                return true;
+
+            case R.id.action_yellow:
+                mModel.asYellow();
+                return true;
+
+            case R.id.action_cyan:
+                mModel.asCyan();
+                return true;
+
+            case R.id.action_magenta:
+                mModel.asMagenta();
+                return true;
+
+            case R.id.action_white:
+                mModel.asWhite();
+                return true;
+
 
             //TODO: handle the remaining menu items
 
